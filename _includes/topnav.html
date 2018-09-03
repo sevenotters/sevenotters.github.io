@@ -15,6 +15,7 @@
             <ul class="nav navbar-nav">
                 <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | prepend: site.baseurl }}">Docs</a></li>
                 <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ "/allposts" | prepend: site.baseurl }}">Blog</a></li>
+                <li {% if page.sectionid=='book' %} class="active" {% endif %}><a href="{{ "/book" | prepend: site.baseurl }}">Book</a></li>
                 <li {% if page.sectionid=='About' %} class="active" {% endif %}><a href="{{ "/about" | prepend: site.baseurl }}">About</a></li>
             </ul>
             <div class="navbar-right">
