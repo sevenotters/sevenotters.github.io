@@ -1,0 +1,33 @@
+---
+title: Ubiquitous language
+permalink: /docs/ubiquitous-language/
+---
+### Aggregate
+...
+
+### Aggregate root
+...
+
+### Event store
+...
+
+### Event bus
+...
+
+### Event (structure)
+...
+
+### Command (structure)
+...
+
+### Command bus
+...
+
+### Policy
+...
+
+### Service
+...
+
+### Projection
+...
