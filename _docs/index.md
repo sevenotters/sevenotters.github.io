@@ -4,11 +4,12 @@ permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
 
+<mark>PAGE STILL IN PROGRESS.<br/>THIS NOTE WILL BE REMOVED WHEN DOCUMENTATION WILL BE CONSIDERED STABLE.</mark>
+
 ### Introduction
 
-Motivazione CQRS/ES in Erlang
-Pro di Erlang per CQRS
-Pro di Elixir
+Motivation and objectives CQRS/ES in Erlang<br/>
+Pro and cons about CQRS/ES in Erlang
 
 ### Discalimer
 Most of terminology come directly from CQRS à la Greg Young philosophy bun some concepts could not exacly match with the original meaning.
