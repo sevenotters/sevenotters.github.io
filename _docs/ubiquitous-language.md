@@ -17,10 +17,10 @@ permalink: /docs/ubiquitous-language/
 ### Event (structure)
 ...
 
-### Command (structure)
+### Command bus
 ...
 
-### Command bus
+### Command (structure)
 ...
 
 ### Policy
