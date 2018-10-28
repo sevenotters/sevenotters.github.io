@@ -1,10 +1,11 @@
 # Site settings
-title: The Seven Otters Project
+title: Seven Otters
 email: seven.otters.project@gmail.com
 description: >
   The Seven Otters Project: a CQRS/ES facilities for Elixir applications.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
+basedoc: https://hexdocs.pm/seven/getting_started.html
 url: https://www.sevenotters.org # the base hostname & protocol for your site
 git_address: https://github.com/sevenotters/sevenotters.github.io
 git_edit_address: https://github.com/sevenotters/sevenotters.github.io/blob/gh-pages
