@@ -7,7 +7,7 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 basedoc: https://hexdocs.pm/seven/getting_started.html
 url: https://www.sevenotters.org # the base hostname & protocol for your site
-git_address: https://github.com/sevenotters/sevenotters.github.io
+git_address: https://github.com/sevenotters/
 git_edit_address: https://github.com/sevenotters/sevenotters.github.io/blob/gh-pages
 
 # theme options from https://bootswatch.com/
