@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby '2.5.1'
 
-gem "jekyll", "3.4.3"
+gem "jekyll", "~> 3.6.3"
 
 # to use GitHub Pages
 # gem "github-pages", group: :jekyll_plugins
