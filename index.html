@@ -5,11 +5,8 @@ layout: default
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50625867-3"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-50625867-3');
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
 </script>
 
 <div class="header-container jumbotron">
@@ -25,15 +22,23 @@ layout: default
     <div class="row">
         <div class="col-md-12">
             <h2 class="header-light regular-pad">What is Seven Otters?</h2>
-            <p>Seven Otters is a set of facilities (macros, functions, modules, etc.) developed to create <a href="https://en.wikipedia.org/wiki/Command%E2%80%93query_separation/">CQRS</a>/<a href="https://martinfowler.com/eaaDev/EventSourcing.html">ES</a> solutions in <a href="https://elixir-lang.org/">Elixir</a> on BEAM virtual machine.<br>
-                With Seven Otters you can easily define events, aggregates, aggregate roots, commands, projections, service, policies, and batches. Moreover Seven Otters internally implements a command bus and an events store.<br>
+            <p>Seven Otters is a set of facilities (macros, functions, modules, etc.) developed to create <a
+                    href="https://en.wikipedia.org/wiki/Command%E2%80%93query_separation/">CQRS</a>/<a
+                    href="https://martinfowler.com/eaaDev/EventSourcing.html">ES</a> solutions in <a
+                    href="https://elixir-lang.org/">Elixir</a> on BEAM virtual machine.<br>
+                With Seven Otters you can easily define events, aggregates, aggregate roots, commands, projections,
+                service, policies, and batches. Moreover Seven Otters internally implements a command bus and an events
+                store.<br>
                 Seven Otters is published as <a href="https://github.com/sevenotters">open source</a> project.<br><br>
             </p>
-            <blockquote>Seven Otters is in development phase, although it is already used in various commercial projects.<br/>Refer to <a href="{{ "/allposts" | prepend: site.baseurl }}">blog</a> to stay updated.</blockquote>
+            <blockquote>Seven Otters is in development phase, although it is already used in various commercial
+                projects.<br />Refer to <a href="{{ " /allposts" | prepend: site.baseurl }}">blog</a> to stay updated.
+            </blockquote>
         </div>
         <div class="col-md-12">
             <h2 class="header-light regular-pad">Getting Started</h2>
-            <p>Refer to <a href="{{ site.basedoc }}">Getting Started</a> to have your first CQRS/ES application with Seven Otters.</p>
+            <p>Refer to <a href="{{ site.basedoc }}">Getting Started</a> to have your first CQRS/ES application with
+                Seven Otters.</p>
         </div>
         <div class="col-md-12">
             <h2 class="header-light regular-pad">What about the name?</h2>
